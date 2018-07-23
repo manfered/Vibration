@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_graph_vertical_margin">4dp</dimen>
+    <dimen name="navigation_view_width">260dp</dimen>
+    <dimen name="navigation_view_header_height">180dp</dimen>
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="tileMargin">8dp</dimen>
+    <dimen name="tileHalfMargin">4dp</dimen>
+    <dimen name="menuListItemMargin">8dp</dimen>
+    <dimen name="graphSeekBarLayoutPadding">4dp</dimen>
+    <dimen name="graphViewActionBarSize">40dp</dimen>
+    <dimen name="graphview_navigation_view_width">200dp</dimen>
+    <dimen name="graphMarginHorizontal">16dp</dimen>
+    <dimen name="dialogSaveFileMinWidth">250dp</dimen>
+    <dimen name="dialogSaveFileLinearPadding">5dp</dimen>
+    <dimen name="dialogSaveFiletextInputLayoutMargin">10dp</dimen>
+    <dimen name="fileListItemsMargin">2dp</dimen>
+    <dimen name="fileListItemsPadding">4dp</dimen>
+    <dimen name="buttonsMargin">5dp</dimen>
+    <dimen name="buttonDEINcreseHeight">30dp</dimen>
+    <dimen name="compareMainViewsMargin">5dp</dimen>
+    <dimen name="compareGraphsMargin">3dp</dimen>
+</resources>

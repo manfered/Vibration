@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/accSensorAvailabilityLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileHalfMargin"
+                android:layout_marginLeft="@dimen/tileMargin"
+                android:layout_marginRight="@dimen/tileMargin"
+                android:layout_marginTop="@dimen/tileMargin"
+                android:layout_weight="1"
+                android:background="@drawable/menu_list_item_1_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/accsensor192"
+                    android:layout_marginTop="@dimen/menuListItemMargin"/>
+
+                <TextView
+                    android:id="@+id/accSensorAvailabilityTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileHalfMargin"
+                android:layout_marginLeft="@dimen/tileMargin"
+                android:layout_marginRight="@dimen/tileMargin"
+                android:layout_marginTop="@dimen/tileHalfMargin"
+                android:layout_weight="1"
+                android:background="@drawable/menu_list_item_2_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/accsensorrate192"
+                    android:layout_marginTop="@dimen/menuListItemMargin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:text="@string/accSensorSensivityTitle"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:id="@+id/accSensorSensivityButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/compareMainViewsMargin"
+                    android:background="@drawable/green_button_layout"
+                    android:text="@string/accSensorSensivityButtonText"
+                    android:textColor="@color/textWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menuListItemMargin"
+                        android:gravity="center"
+                        android:text="@string/accSensorSensivityScale"
+                        android:textColor="@color/menuListItemColor"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:id="@+id/accSensorSensivityTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menuListItemMargin"
+                        android:gravity="center"
+                        android:text="@string/accSensorSensivityDefaultValue"
+                        android:textColor="@color/menuListItemColor"
+                        android:textSize="21sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileHalfMargin"
+                android:layout_marginLeft="@dimen/tileMargin"
+                android:layout_marginRight="@dimen/tileMargin"
+                android:layout_marginTop="@dimen/tileHalfMargin"
+                android:layout_weight="1"
+                android:background="@drawable/menu_list_item_3_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/accsensorunit192"
+                    android:layout_marginTop="@dimen/menuListItemMargin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:text="@string/accSensorUnitTitle"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/radioGroupAccUnit"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accSensorUnitMS2"
+                        android:id="@+id/radioAccUnitMS2"
+                        android:textColor="@color/menuListItemColor"
+                        android:textSize="18sp"
+                        android:buttonTint="@color/radioButtonColorTint"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accSensorUnitGal"
+                        android:id="@+id/radioAccUnitGal"
+                        android:textColor="@color/menuListItemColor"
+                        android:textSize="18sp"
+                        android:buttonTint="@color/radioButtonColorTint"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accSensorUnitFTS2"
+                        android:id="@+id/radioAccUnitFTS2"
+                        android:textColor="@color/menuListItemColor"
+                        android:textSize="18sp"
+                        android:buttonTint="@color/radioButtonColorTint"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accSensorUnitStandardGravity"
+                        android:id="@+id/radioAccUnitStandardGravity"
+                        android:textColor="@color/menuListItemColor"
+                        android:textSize="18sp"
+                        android:buttonTint="@color/radioButtonColorTint"/>
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

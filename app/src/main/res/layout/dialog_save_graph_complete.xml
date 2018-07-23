@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="@dimen/dialogSaveFileMinWidth"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="@dimen/dialogSaveFileLinearPadding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dialogSaveFileTitle"
+            android:textColor="@color/colorBackGroundWhite"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dialogSaveFileLinearPadding">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutEntrySaveFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialogSaveFiletextInputLayoutMargin"
+            android:layout_marginRight="@dimen/dialogSaveFiletextInputLayoutMargin">
+
+            <EditText
+                android:id="@+id/saveFileNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialogSaveFileHint"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dialogSaveFileLinearPadding">
+
+        <Button
+            android:id="@+id/dialogSaveCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dialogSaveFileCancel"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/dialogSaveSAveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dialogSAveFileSave"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

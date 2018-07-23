@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileHalfMargin"
+                android:layout_marginLeft="@dimen/tileMargin"
+                android:layout_marginRight="@dimen/tileHalfMargin"
+                android:layout_marginTop="@dimen/tileMargin"
+                android:layout_weight="6"
+                android:background="@drawable/menu_list_item_1_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:id="@+id/linearLayoutListGraph">
+
+                <ImageView
+                    android:id="@+id/graphImageViewMenuList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/graph192" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:text="@string/menuListGraphTitle"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp"
+                    android:id="@+id/menuListGraphTitleTextView"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileMargin"
+                android:layout_marginLeft="@dimen/tileMargin"
+                android:layout_marginRight="@dimen/tileHalfMargin"
+                android:layout_marginTop="@dimen/tileHalfMargin"
+                android:layout_weight="4"
+                android:background="@drawable/menu_list_item_2_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:id="@+id/linearLayoutListCompare">
+
+
+                <ImageView
+                    android:id="@+id/compareImageViewMenuList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/compare192" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:text="@string/menuListCompareTitle"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp"
+                    android:id="@+id/menuListCompareTitleTextView"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileHalfMargin"
+                android:layout_marginLeft="@dimen/tileHalfMargin"
+                android:layout_marginRight="@dimen/tileMargin"
+                android:layout_marginTop="@dimen/tileMargin"
+                android:layout_weight="4"
+                android:background="@drawable/menu_list_item_3_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:id="@+id/linearLayoutListReview">
+
+                <ImageView
+                    android:id="@+id/reviewImageViewMenuList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/review192" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:text="@string/menuListReviewTitle"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp"
+                    android:id="@+id/menuListReviewTitleTextView"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/tileMargin"
+                android:layout_marginLeft="@dimen/tileHalfMargin"
+                android:layout_marginRight="@dimen/tileMargin"
+                android:layout_marginTop="@dimen/tileHalfMargin"
+                android:layout_weight="6"
+                android:background="@drawable/menu_list_item_4_layout"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:id="@+id/linearLayoutListConnection">
+
+
+                <ImageView
+                    android:id="@+id/mobilePCViewMenuList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/mobilepc192" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menuListItemMargin"
+                    android:gravity="center"
+                    android:text="@string/menuListMobilePCTitle"
+                    android:textColor="@color/menuListItemColor"
+                    android:textSize="21sp"
+                    android:id="@+id/menuListMobilePCTitleTextView"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

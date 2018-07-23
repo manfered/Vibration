@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/graphViewCompleteNavigationTitle"
+        >
+        <menu>
+            <item
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/graphViewCompleteNavigationMenuX"
+                app:actionLayout="@layout/widget_switch"
+                android:id="@+id/graphViewNavigationAxisXSwitch"/>
+            <item
+                android:title="@string/graphViewCompleteNavigationMenuY"
+                app:actionLayout="@layout/widget_switch"
+                android:id="@+id/graphViewNavigationAxisYSwitch" />
+            <item
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/graphViewCompleteNavigationMenuZ"
+                app:actionLayout="@layout/widget_switch"
+                android:id="@+id/graphViewNavigationAxisZSwitch" />
+            <item
+                android:title="@string/graphViewCompleteNavigationMenuBar"
+                app:actionLayout="@layout/widget_switch"
+                android:id="@+id/graphViewNavigationAxisBarSwitch" />
+            <item
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/graphViewCompleteNavigationMenuLegend"
+                app:actionLayout="@layout/widget_switch"
+                android:id="@+id/graphViewNavigationLegendSwitch" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@drawable/gray_button_layout"
+    android:id="@+id/recyclerItemLinearLayout"
+    android:layout_marginBottom="@dimen/fileListItemsPadding"
+    android:padding="@dimen/fileListItemsPadding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/recyclerItemNameTextBox"/>
+
+</LinearLayout>

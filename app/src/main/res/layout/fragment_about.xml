@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/aboutUSFragmentText"
+        ext:documentView_antialias="true"
+        ext:documentView_cacheConfig="auto_quality"
+        ext:documentView_hyphen="-"
+        ext:documentView_lineHeightMultiplier="26.0"
+        ext:documentView_maxLines="100"
+        ext:documentView_offsetX="10dp"
+        ext:documentView_offsetY="10dp"
+        ext:documentView_insetPadding="10dp"
+        ext:documentView_insetPaddingBottom="10dp"
+        ext:documentView_insetPaddingLeft="10dp"
+        ext:documentView_insetPaddingRight="10dp"
+        ext:documentView_insetPaddingTop="25dp"
+        ext:documentView_reverse="true"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textColor="@android:color/black"
+        ext:documentView_textFormat="formatted"
+        ext:documentView_textSize="16sp"
+        ext:documentView_textSubPixel="true"
+        ext:documentView_textTypefacePath="fonts/ANegaar.ttf"
+        ext:documentView_wordSpacingMultiplier="5.0" />
+
+</RelativeLayout>

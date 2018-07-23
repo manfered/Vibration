@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigationViewMenuTileList" android:title="@string/main_navigation_menu_vibraation"/>
+    <item android:id="@+id/navigationViewSensor" android:title="@string/main_navigation_menu_Sensor"/>
+    <item android:id="@+id/navigationViewAboutus" android:title="@string/main_navigation_menu_aboutus"/>
+    <item android:id="@+id/navigationViewContactus" android:title="@string/main_navigation_menu_contactus"/>
+    <item android:id="@+id/navigationViewExit" android:title="@string/main_navigation_menu_exit"/>
+
+</menu>
